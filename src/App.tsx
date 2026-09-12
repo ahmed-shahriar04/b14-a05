@@ -119,7 +119,7 @@ function App() {
 
       <Footer />
 
-      <ToastContainer position="bottom-right" autoClose={2000} aria-label={Notification}/>
+      <ToastContainer position="bottom-right" autoClose={2000}/>
     </div>
   );
 }
