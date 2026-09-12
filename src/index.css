@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --brand-gradient: linear-gradient(
+    90deg,
+    #f97316 0%,
+    #ec4899 50%,
+    #8b5cf6 100%
+  );
+  --brand-pink-col: #db2777;
+  --tech-text: linear-gradient(90deg, #ec4899 0%, #8b5cf6 100%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #ffffff;
+  color: #111827;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
