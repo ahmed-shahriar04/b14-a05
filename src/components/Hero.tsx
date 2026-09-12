@@ -43,7 +43,7 @@ function Hero() {
           <img
             src="/src/assets/banner-stack.png"
             alt="Developer workspace"
-            className="w-full max-w-2xl object-contain lg:max-w-[650px]"
+            className="w-full max-w-3xl object-contain lg:max-w-[700px]"
           />
         </div>
       </div>
