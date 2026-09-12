@@ -43,7 +43,7 @@ function Navbar() {
         >
           <img
             src={logoText}
-            alt="Dev Stack"
+            alt="Dev Stack logo navbar"
             className="h-8 w-auto object-contain"
           />
         </a>
