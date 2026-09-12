@@ -1,3 +1,5 @@
+import heroImg from "../assets/banner-stack.png"
+
 function Hero() {
   return (
     <section id="home" className="overflow-hidden bg-white">
@@ -41,7 +43,7 @@ function Hero() {
           <div className="absolute -inset-10 -z-10 rounded-full bg-orange-100/50 blur-3xl" />
 
           <img
-            src="/src/assets/banner-stack.png"
+            src={heroImg}
             alt="Developer workspace"
             className="w-full max-w-3xl object-contain lg:max-w-[700px]"
           />
