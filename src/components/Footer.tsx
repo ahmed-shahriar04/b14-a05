@@ -1,3 +1,5 @@
+import logoText from "../assets/logo-text.png";
+
 function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-white px-4 py-8 sm:px-6 lg:px-8">
@@ -7,8 +9,8 @@ function Footer() {
           <div className="lg:col-span-1">
             <a href="#home" className="inline-block">
               <img
-                src="/src/assets/logo-text.png"
-                alt="Dev Stack"
+                src={logoText}
+                alt="Dev Stack logo footer"
                 className="h-8 w-auto object-contain"
               />
             </a>
