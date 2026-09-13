@@ -29,7 +29,7 @@ function TechnologyCard({ technology, isAdded, onAdd }: TechnologyCardProps) {
     "bg-gray-100 text-gray-600 border-gray-200";
 
   return (
-    <article className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-md">
+    <article className="rounded-xl [font-family:var(--brand-font2)] border border-gray-200 bg-white p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-md">
       <div className="flex items-start justify-between">
         <div className="flex h-12 w-12 items-center justify-center">
           <img

@@ -99,7 +99,7 @@ function App() {
                 </div>
               </div>
             ) : (
-              <div className="grid gap-8 lg:grid-cols-[1fr_300px]">
+              <div className="grid gap-8 lg:grid-cols-[1fr_300px] [font-family:var(--brand-font2)]">
                 <TechnologyGrid
                   technologies={technologies}
                   stack={stack}
