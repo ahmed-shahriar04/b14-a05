@@ -51,42 +51,42 @@ function Navbar() {
         <div className="hidden items-center gap-8 md:flex">
           <a
             href="#home"
-            className="text-sm font-medium text-[#DB2777] transition hover:text-orange-500"
+            className="text-sm font-medium text-(--brand-nav-hover) transition hover:text-gray-600"
           >
             Home
           </a>
 
           <a
             href="#technologies"
-            className="text-sm font-medium text-gray-600 transition hover:text-orange-500"
+            className="text-sm font-medium text-gray-600 transition hover:text-(--brand-nav-hover)"
           >
             Technologies
           </a>
 
           <a
             href="#projects"
-            className="text-sm font-medium text-gray-600 transition hover:text-orange-500"
+            className="text-sm font-medium text-gray-600 transition hover:text-(--brand-nav-hover)"
           >
             Projects
           </a>
 
           <a
             href="#about"
-            className="text-sm font-medium text-gray-600 transition hover:text-orange-500"
+            className="text-sm font-medium text-gray-600 transition hover:text-(--brand-nav-hover)"
           >
             About
           </a>
 
           <a
             href="#contact"
-            className="text-sm font-medium text-gray-600 transition hover:text-orange-500"
+            className="text-sm font-medium text-gray-600 transition hover:text-(--brand-nav-hover)"
           >
             Contact
           </a>
         </div>
 
         <div className="flex items-center gap-2 sm:gap-4">
-          <button className="text-sm font-semibold text-gray-700 hover:text-gray-900">
+          <button className="text-sm font-semibold text-gray-700 hover:text-(--brand-nav-hover)">
             Sign In
           </button>
 
