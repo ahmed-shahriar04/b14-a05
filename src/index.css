@@ -1,4 +1,8 @@
+/*Font link*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import "tailwindcss";
+
 
 :root {
   --brand-gradient: linear-gradient(
@@ -9,6 +13,11 @@
   );
   --brand-pink-col: #db2777;
   --tech-text: linear-gradient(90deg, #ec4899 0%, #8b5cf6 100%);
+
+  --brand-font: "Inter", sans-serif;
+  --brand-font2: "Plus Jakarta Sans", sans-serif;
+
+  --brand-nav-hover: #DB2777;
 }
 
 html {
@@ -20,13 +29,7 @@ body {
   min-width: 320px;
   background: #ffffff;
   color: #111827;
-  font-family:
-    Inter,
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    sans-serif;
+  font-family: var(--brand-font);
 }
 
 button,
