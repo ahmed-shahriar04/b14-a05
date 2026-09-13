@@ -128,8 +128,8 @@ function Footer() {
         <div className="flex flex-col items-center text-center md:hidden">
           <a href="#home" className="inline-block">
             <img
-              src="/src/assets/logo-text.png"
-              alt="Dev Stack"
+              src={logoText}
+              alt="Dev Stack Logo"
               className="mx-auto h-8 w-auto object-contain"
             />
           </a>
